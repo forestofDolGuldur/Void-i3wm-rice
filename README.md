@@ -1,0 +1,1 @@
+# Void-i3wm-rice
