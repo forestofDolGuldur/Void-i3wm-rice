@@ -207,3 +207,9 @@ bindsym $mod+r mode "resize"
 #bar {
 #        status_command i3status
 #}
+
+#Screenshot fullscreen
+bindsym Print exec maim ~/Pictures/Screenshots/screenshot-$(date +%Y%m%d-%H%M%S).png
+
+#Screenshot zone select
+bindsym Print exec maim -s ~/Pictures/Screenshots/screenshot-$(date +%Y%m%d-%H%M%S).png
